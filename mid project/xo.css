@@ -1,0 +1,77 @@
+/* General Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Horizontal Line Styling */
+hr {
+    width: 500px;
+    height: 2px;
+    background-color: black;
+}
+
+/* Heading 1 Styling */
+h1 {
+    font-size: 50px;
+    font-weight: normal; /* Adjusted for correct usage */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #111;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    height: 40px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+/* Navigation Links Styling */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e355f0;
+}
+
+/* Game Board Container */
+#board {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Game Tiles */
+.tile {
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+/* Winner Highlight */
+.winner {
+    background-color: lightgray;
+    color: red;
+}
+
+/* Board Lines */
+.horizontal-line {
+    border-bottom: 3px solid black;
+}
+
+.vertical-line {
+    border-right: 3px solid black;
+}
